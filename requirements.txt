@@ -8,3 +8,8 @@ langchain-huggingface
 transformers
 huggingface-hub
 
+#FAIIS
+faiss-cpu
+
+#PDF
+pypdf
