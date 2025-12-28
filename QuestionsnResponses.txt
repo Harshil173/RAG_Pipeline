@@ -1,0 +1,25 @@
+1)'What is the maximum allowed positional accuracy for Arm C, and what is its maximum joint temperature?'
+Ans) Based on the provided document context, the maximum allowed positional accuracy for Arm C is ±0.25mm, and its maximum joint temperature is 75°C.
+
+2)At what vibration threshold does the conveyor system trigger an emergency shutdown? Provide the exact number and source snippet.
+Ans)Based on the provided context:
+
+The conveyor system triggers an emergency shutdown at a vibration threshold of **1.2 g RMS**.
+
+Source snippet: "vibration shutdown at 1.2 g RMS"
+
+3)If a thermal sensor exceeds twice its accuracy threshold, what error code should be raised and what action is required?
+Ans) Based on the provided context:
+If a thermal sensor exceeds twice its accuracy threshold (±1.2°C), the error code **OUT_OF_CALIBRATION** should be raised. The context does not specify a required action beyond raising this error code.
+
+4)What is the rule for robotic arm shutdown relating to joint temperature? Explain the exact condition and the allowed time window?.
+Ans)I don't know.
+
+5)Does the document allow a conveyor belt to continue running if lateral alignment drift is 4.0 mm? Yes/No. Provide citation.
+Ans)No. The document states an "alignment tolerance ≤3.5 mm." A drift of 4.0 mm exceeds this tolerance, so the conveyor would not be allowed to continue running.
+
+6)What is the maximum allowable deviation in the robot pick-place cycle time, and what event is triggered when this limit is exceeded?
+Ans)Don't know.
+
+7)For the "/v1/refund"-equivalent safety flow (Human in Zone A), what is the required response time for full stop?
+Ans)Human in Zone A → stop ≤200ms.
